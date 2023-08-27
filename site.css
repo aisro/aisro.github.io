@@ -221,7 +221,7 @@ html,
 body {
     font-family: 'Noto Serif Bengali', serif, Verdana, sans-serif;
     font-size: 15px;
-    line-height: 1.5
+    line-height: 1.5;
 }
 
 html {
@@ -1993,4 +1993,16 @@ a {
 .w3-border-pale-blue,
 .w3-hover-border-pale-blue:hover {
     border-color: #e7ffff !important
+}
+
+.footer
+{
+    height: 50px;
+    line-height: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: medium;
+    text-align: center;
+    vertical-align: middle;
+    color: red;
+    background-color: yellow;
 }
