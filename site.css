@@ -1,6 +1,6 @@
 /* W3.CSS 4.15 December 2020 by Jan Egil and Borge Refsnes */
 html {
-    box-sizing: border-box
+    box-sizing: border-box;
 }
 
 *,
@@ -1995,8 +1995,7 @@ a {
     border-color: #e7ffff !important
 }
 
-.footer
-{
+.footer {
     height: 50px;
     line-height: 50px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -2005,4 +2004,34 @@ a {
     vertical-align: middle;
     color: red;
     background-color: yellow;
+}
+
+#modal {
+    display: none;
+    position: absolute;
+    top: 5%;
+    left: 25%;
+    /* transform: translate(-50%, -50%); */
+    padding: 1rem;
+    /* width: 100px; */
+
+}
+
+#overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75);
+
+}
+
+#modal.open, #overlay.open {
+    display: block;
+}
+
+#modal img {
+  width: 50vw;
 }
